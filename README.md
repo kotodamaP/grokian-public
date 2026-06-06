@@ -1,5 +1,7 @@
 # Grokian
 
+**English** | [日本語 (README.ja.md)](README.ja.md)
+
 Grokian is a Grok-powered Obsidian writing assistant derived from
 [Claudian](https://github.com/YishenTu/claudian).
 
