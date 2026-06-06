@@ -39,8 +39,8 @@ supported product surfaces or release gates for this workflow.
 ## Development
 
 ```bash
-git clone <public-repo-url>
-cd <repo-directory>
+git clone https://github.com/kotodamaP/grokian-public.git
+cd grokian-public
 npm install
 npm run build
 ```
