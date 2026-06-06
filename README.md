@@ -1,6 +1,6 @@
 # Grokian
 
-**English** | [日本語 (README.ja.md)](README.ja.md)
+**English** | [日本語 (README.ja.md)](README.ja.md) | [中文 (README.zh.md)](README.zh.md)
 
 Grokian is a Grok-powered Obsidian writing assistant derived from
 [Claudian](https://github.com/YishenTu/claudian).
@@ -17,6 +17,30 @@ This repository is a separate Obsidian Desktop plugin fork with plugin id
 Grokian v0.1 is Grok-only. Claudian, OpenCode, and Codex code from the upstream
 project may remain as reference scaffolding during the fork, but they are not
 supported product surfaces or release gates for this workflow.
+
+## Disclaimer / 免責事項
+
+Grokian is a personal hobby project and is provided as-is, without warranty.
+Use and install it at your own risk.
+
+The author cannot be held responsible for data loss, vault issues, unexpected
+plugin behavior, or other problems that may occur through use of this project.
+
+Please back up important Obsidian vaults and test the plugin in a separate
+development vault before using it with real manuscripts.
+
+## Version / バージョン
+
+Current public release: `v0.1.0`
+
+Grokian uses `package.json` as the source of truth for versioning.
+The Obsidian plugin version in `manifest.json` is synced from `package.json`
+before release.
+
+現在の公開バージョンは `v0.1.0` です。
+
+Grokian は `package.json` の `version` を正本として扱い、`manifest.json` の
+Obsidian プラグイン向けバージョンはリリース前に同期します。
 
 ## Goals
 

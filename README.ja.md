@@ -1,6 +1,6 @@
 # Grokian
 
-**[English (README.md)](README.md) | 日本語**
+**[English (README.md)](README.md) | [中文 (README.zh.md)](README.zh.md) | 日本語**
 
 Grokianは、[Claudian](https://github.com/YishenTu/claudian) をベースにした
 Grok搭載のObsidian向け執筆アシスタントです。
@@ -16,6 +16,24 @@ Grok搭載のObsidian向け執筆アシスタントです。
 Grokian v0.1はGrok専用です。上流のClaudian、OpenCode、Codexのコードは、
 派生実装時の参照として残ることがありますが、現時点での公開対象機能やリリース要件
 としては扱っていません。
+
+## 免責事項
+
+Grokianは個人的な趣味開発によるプロジェクトであり、現状有姿で提供されます。
+インストールおよび利用は自己責任でお願いします。
+
+本プロジェクトの利用によって発生したデータ損失、vault の不具合、予期しない
+動作、その他の問題について、作者は責任を負いかねます。
+
+重要な Obsidian vault や原稿で利用する前に、バックアップを取り、まずは検証用
+vault で動作確認を行ってください。
+
+## バージョン
+
+現在の公開バージョンは `v0.1.0` です。
+
+Grokian は `package.json` の `version` をプロジェクトの正本とし、
+`manifest.json` の Obsidian プラグイン向けバージョンは、リリース前に同期します。
 
 ## 目標
 
