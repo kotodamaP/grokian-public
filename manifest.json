@@ -1,0 +1,10 @@
+{
+  "id": "grokian",
+  "name": "Grokian",
+  "version": "0.1.0",
+  "minAppVersion": "1.7.2",
+  "description": "Embeds a Grok-powered writing assistant in Obsidian for manuscript drafting, inline rewrites, and story planning.",
+  "author": "kotodamaP, based on Claudian by Yishen Tu",
+  "authorUrl": "https://github.com/kotodamaP",
+  "isDesktopOnly": true
+}

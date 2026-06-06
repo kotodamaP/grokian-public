@@ -1,0 +1,32 @@
+.claudian-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+  overflow: hidden;
+  font-family: var(--font-text);
+}
+
+.claudian-hidden {
+  display: none !important;
+}
+
+.claudian-visible-block {
+  display: block !important;
+}
+
+.claudian-visible-flex {
+  display: flex !important;
+}
+
+.claudian-provider-icon-variant--dark {
+  display: none;
+}
+
+body.theme-dark .claudian-provider-icon-variant--light {
+  display: none;
+}
+
+body.theme-dark .claudian-provider-icon-variant--dark {
+  display: inline;
+}

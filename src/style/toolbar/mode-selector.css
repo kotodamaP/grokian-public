@@ -1,0 +1,23 @@
+.claudian-mode-selector {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex: 0 0 112px;
+  min-width: 112px;
+  padding-left: 4px;
+  padding-right: 0;
+  justify-content: flex-end;
+}
+
+.claudian-mode-label {
+  font-size: 11px;
+  color: var(--text-muted);
+  min-width: 72px;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.claudian-mode-label.active {
+  color: var(--claudian-brand);
+  font-weight: 600;
+}
